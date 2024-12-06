@@ -22,7 +22,6 @@ namespace simasciitrain {
         Train(Wagons* wagons, AbstractLocomotive* locomotive);
         ~Train() override;
         void print(std::ostream& os) const override;
-        friend std::ostream& operator<<(std::ostream& os, const Train& train);
     };
 }
 

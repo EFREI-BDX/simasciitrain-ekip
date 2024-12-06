@@ -16,9 +16,4 @@ namespace simasciitrain {
     void Train::print(std::ostream& os) const {
         os << *wagons << '-' << *locomotive;
     }
-
-    std::ostream& operator<<(std::ostream& os, const Train& train) {
-        train.print(os);
-        return os;
-    }
 }
