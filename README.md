@@ -3,7 +3,7 @@
 
 # TP C++
 
-# Made with ❤️ by [BMR](mailto:jeanaymeric@gmail.com)
+# Made with ❤️ by [BMR](mailto:mehdi-redha.bellahsene@efrei.net)
 
 ## Consignes :
 
