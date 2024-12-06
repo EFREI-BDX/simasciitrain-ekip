@@ -12,7 +12,7 @@
 
 namespace simasciitrain {
     class AbstractLocomotive : public TrainElement {
-    protected:
+    private:
         TypeLocomotive typeLocomotive;
 
     public:

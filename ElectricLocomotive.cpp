@@ -8,4 +8,3 @@ namespace simasciitrain {
     ElectricLocomotive::ElectricLocomotive()
         : AbstractLocomotive(TypeLocomotive::ELECTRIC) {}
 }
-

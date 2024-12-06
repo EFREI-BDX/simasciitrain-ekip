@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Nouveau dossier/simasciitrain-ekip/cmake-build-debug",
+	"dir-cur-src" : "C:/Nouveau dossier/simasciitrain-ekip",
+	"dir-top-bld" : "C:/Nouveau dossier/simasciitrain-ekip/cmake-build-debug",
+	"dir-top-src" : "C:/Nouveau dossier/simasciitrain-ekip",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Nouveau dossier/simasciitrain-ekip/cmake-build-debug/CMakeFiles/Tp_note_bellahsene.dir"
+}

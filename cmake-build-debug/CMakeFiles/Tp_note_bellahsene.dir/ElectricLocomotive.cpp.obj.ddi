@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Tp_note_bellahsene.dir\\ElectricLocomotive.cpp.obj",
+            "outputs": [
+                "C:\\Nouveau dossier\\simasciitrain-ekip\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\Tp_note_bellahsene.dir\\ElectricLocomotive.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

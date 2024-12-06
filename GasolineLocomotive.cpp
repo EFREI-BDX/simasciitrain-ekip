@@ -8,4 +8,3 @@ namespace simasciitrain {
     GasolineLocomotive::GasolineLocomotive()
         : AbstractLocomotive(TypeLocomotive::GASOLINE) {}
 }
-

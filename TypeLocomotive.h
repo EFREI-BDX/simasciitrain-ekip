@@ -25,4 +25,4 @@ namespace simasciitrain {
     };
 }
 
-#endif // TYPELOCOMOTIVE_H
+#endif

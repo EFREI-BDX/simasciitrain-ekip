@@ -18,7 +18,6 @@ namespace simasciitrain {
             train.print(os);
             return os;
         }
-
     };
 }
 

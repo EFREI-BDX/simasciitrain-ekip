@@ -1,0 +1,25 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\Tp_note_bellahsene.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\TypeWagon.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\AbstractWagon.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\FreightWagon.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\PassengerWagon.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\UtilityWagon.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\TypeLocomotive.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\ElectricLocomotive.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\AbstractLocomotive.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\GasolineLocomotive.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\Wagons.cpp.obj: dyndep
+
+build CMakeFiles\Tp_note_bellahsene.dir\Train.cpp.obj: dyndep
+

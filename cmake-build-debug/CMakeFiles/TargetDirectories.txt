@@ -1,0 +1,3 @@
+C:/Nouveau dossier/simasciitrain-ekip/cmake-build-debug/CMakeFiles/Tp_note_bellahsene.dir
+C:/Nouveau dossier/simasciitrain-ekip/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Nouveau dossier/simasciitrain-ekip/cmake-build-debug/CMakeFiles/rebuild_cache.dir

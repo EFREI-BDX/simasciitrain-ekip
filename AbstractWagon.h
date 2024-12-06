@@ -10,7 +10,7 @@
 
 namespace simasciitrain {
     class AbstractWagon : public TrainElement {
-    protected:
+    private:
         TypeWagon typeWagon;
 
     public:

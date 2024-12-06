@@ -2,7 +2,6 @@
 // Created by mehdi on 06/12/2024.
 //
 
-// FreightWagon.cpp
 #include "FreightWagon.h"
 
 namespace simasciitrain {
