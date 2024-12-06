@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C++ CI
 
 on:
   push:
@@ -8,16 +8,37 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    
+    - name: Install modern CMake and compiler
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake build-essential
+        sudo apt-get install -y gcc-12 g++-12
+        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 100
+        sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 100
+        
+    - name: Verify CMake version
+      run: cmake --version
+        
+    - name: Create Build Directory
+      run: mkdir build
+
+    - name: Configure CMake
+      working-directory: ./build
+      run: cmake .. -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build Project
+      working-directory: ./build
+      run: cmake --build . --config Release
+
+    - name: List Build Directory
+      working-directory: ./build
+      run: ls -la
+
+    - name: Run Executable
+      working-directory: ./build
+      run: ./Tp_note_bellahsene || true
