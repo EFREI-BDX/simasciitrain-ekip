@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.30)
-project(simasciitrain)
+project(Tp_note_bellahsene)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(simasciitrain main.cpp
+add_executable(Tp_note_bellahsene
+        main.cpp
         TrainElement.h
         TypeWagon.h
         TypeWagon.cpp
@@ -18,7 +19,7 @@ add_executable(simasciitrain main.cpp
         TypeLocomotive.h
         TypeLocomotive.cpp
         ElectricLocomotive.h
-        ElectricLocomotive.h
+        ElectricLocomotive.cpp
         AbstractLocomotive.h
         AbstractLocomotive.cpp
         GasolineLocomotive.h
