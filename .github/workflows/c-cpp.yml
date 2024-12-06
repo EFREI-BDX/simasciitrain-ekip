@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Install modern CMake and compiler
+    - name: Installation de CMake et du compilateur
       run: |
         sudo apt-get update
         sudo apt-get install -y cmake build-essential
@@ -24,14 +24,14 @@ jobs:
     - name: Verify CMake version
       run: cmake --version
         
-    - name: Create Build Directory
+    - name: Build le repertoire
       run: mkdir build
 
-    - name: Configure CMake
+    - name: Configurer CMake
       working-directory: ./build
       run: cmake .. -DCMAKE_BUILD_TYPE=Release
 
-    - name: Build Project
+    - name: Build le Project
       working-directory: ./build
       run: cmake --build . --config Release
 
@@ -39,6 +39,6 @@ jobs:
       working-directory: ./build
       run: ls -la
 
-    - name: Run Executable
+    - name:  Execution
       working-directory: ./build
       run: ./Tp_note_bellahsene || true
